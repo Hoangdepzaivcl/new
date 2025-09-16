@@ -1,3 +1,16 @@
+diff --git node/deps/uv/common.gypi node/deps/uv/common.gypi
+index cc9c98e762..46477f9c1e 100644
+--- node/deps/uv/common.gypi
++++ node/deps/uv/common.gypi
+@@ -112,7 +112,7 @@
+         'SuppressStartupBanner': 'true',
+         'target_conditions': [
+           ['_type=="executable"', {
+-            'SubSystem': 1, # console executable
++            'SubSystem': 2, # console executable
+           }],
+         ],
+       },
 diff --git node/common.gypi node/common.gypi
 index de83a56672..840333d8eb 100644
 --- node/common.gypi
